@@ -180,6 +180,7 @@ if(isset($_POST["user"]) && isset($_POST["pass"]) && isset($_POST["email"]) && i
             var re = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
             return re.test(password);
         }
-    </script>
+    </script>//script is about validation
+    
 </body>
 </html>
